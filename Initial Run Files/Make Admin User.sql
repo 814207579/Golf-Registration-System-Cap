@@ -1,0 +1,1 @@
+UPDATE `golfdb`.`users` SET `access` = 'Admin' WHERE `users`.`username` = "YOUR USERNAME HERE"

@@ -1,0 +1,1 @@
+DELETE FROM golfdb.`users` WHERE `users`.`username` = "YOUR ADMIN ACCOUNT USERNAME HERE"
