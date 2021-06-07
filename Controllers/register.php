@@ -3,6 +3,7 @@
 	//https://www.tutorialrepublic.com/terms-of-use.php
 // Include config file
 require_once "./../Models/Database.php";
+
  
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = "";

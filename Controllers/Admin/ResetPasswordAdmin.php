@@ -107,7 +107,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <p>Please fill out this form to reset your password.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
 			<div class="form-group">
-                <label>UserName</label>
+                <label>Username</label>
                 <input name="userName" class="form-control"/>
             </div>
             <div class="form-group">

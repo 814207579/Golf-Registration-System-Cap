@@ -46,3 +46,7 @@ switch ($action) :
 
 endswitch;
 ?>
+
+<head>
+	<title> Pro TeeSheet </title>
+</head>

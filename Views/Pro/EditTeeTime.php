@@ -20,6 +20,10 @@ $currentTime = FILTER_INPUT(INPUT_GET, "time");
 <script type="text/javascript" src="./../../Models/TableFilter.js"></script>
 <script type="text/javascript" src="./../../Models/memberSelecter.js"></script>
 
+<head>
+	<title> Pro Edit TeeTime </title>
+</head>
+
 <body>
 		<form action="./../../Controllers/ProUser/Pro.php" method="post">
 			<input hidden name="time" value="<?php echo $currentTime; ?>"

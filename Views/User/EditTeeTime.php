@@ -19,7 +19,9 @@ $currentTime = FILTER_INPUT(INPUT_GET, "time");
 <?php //js do something when an option is selected in <option> ?>
 <script type="text/javascript" src="./../../Models/TableFilter.js"></script>
 <script type="text/javascript" src="./../../Models/memberSelecter.js"></script>
-
+<head>
+	<title> Edit Tee Time </title>
+</head>
 <body>
 		<form action="./../../Controllers/User/User.php" method="post">
 			<input hidden name="time" value="<?php echo $currentTime; ?>"

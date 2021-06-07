@@ -2,7 +2,10 @@
 
 include_once("./../../Models/Members.php");
 include_once("./../../Models/LibraryImports.php");
-session_start();
+include_once("./../../Views/Navbar.php");
+if (!ISSET($_SESSION)) {
+	session_start();
+}
 
 //keep out anyone with "Member" or "Pro" access
 if(!isset($_SESSION["loggedin"])) {
@@ -25,7 +28,7 @@ $id = FILTER_INPUT(INPUT_GET, "id");
 //array that hold the current member's info
 $member = getMember($id);
 
-var_dump($member);
+//var_dump($member);
 
 $id = $member[0][0];
 $firstName = $member[0][1];
@@ -40,7 +43,7 @@ $createdAt = $member[0][7];
 <html>
 
 	<head>
-		<title> Edit Member - </php  ?> </title>
+		<title> Edit Member - <?php echo $memberNumber ?> </title>
 	</head>
 	
 	<body>

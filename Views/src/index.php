@@ -4,6 +4,9 @@
 	include_once("./../../Views/NavBar.php");
 	
 ?>
+<head>
+	<title> Calendar </title>
+</head>
 <script type="text/javascript" src="script.js"></script>
 <link rel="stylesheet/less" type="text/css" href="style.less" />
 <script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
